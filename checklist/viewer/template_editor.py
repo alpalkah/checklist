@@ -5,7 +5,7 @@ import typing
 import itertools
 
 try:
-    from IPython.core.display import display, Javascript
+    from IPython.display import display, Javascript
 except:
     raise Exception("This module must be run in IPython.")
 DIRECTORY = os.path.abspath(os.path.dirname(__file__))
